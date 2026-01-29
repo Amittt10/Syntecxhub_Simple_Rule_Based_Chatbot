@@ -1,0 +1,52 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["What is Simplilearn?"],
+         "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform "],
+         "context": [""]
+        },
+        {"tag": "courses",
+         "patterns": ["What courses do you offer?", "List your courses", "Courses available"],
+         "responses": ["We offer a variety of courses in Data Science, Python Development, Cyber Security, Cloud Computing, Project Management, and more."],
+         "context": [""]
+        },
+        {  "tag": "admission_process",
+         "patterns": ["How to enroll in Python course?", "How do I join the course?", "Admission process for Python", "I want to register for Python training"],
+         "responses": ["To enroll, click the 'Enroll Now' button on the Python Course page, fill in your details, and complete the payment. You'll get instant access to the learner dashboard!"],
+        "context": [""]
+        },
+        {"tag": "admission_eligibility",
+        "patterns": ["Who can apply for this course?", "Am I eligible for Python course?", "Is there an age limit for admission?", "Minimum qualification for enrollment"],
+        "responses": ["Our Python course is open to everyone! Whether you are a student, a working professional, or a hobbyist, there are no strict eligibility criteria to start."],
+        "context": [""]
+        },
+        {"tag": "batch_timing",
+        "patterns": ["When does the next batch start?", "Course schedule", "Is it a weekend or weekday batch?", "Timings for Python classes"],
+        "responses": ["We have multiple batches starting every week, including weekend options for working professionals. You can select your preferred slot during the checkout process."],
+        "context": [""]
+        },
+        {"tag": "payment_methods",
+        "patterns": ["How can I pay?", "Do you accept credit cards?", "Is there an EMI option?", "Payment modes available"],
+        "responses": ["We accept all major Credit/Debit cards, Net Banking, and UPI. For most professional courses, we also offer No-Cost EMI options."],
+        "context": [""]
+        },
+        {"tag": "admission_help",
+        "patterns": ["I'm having trouble enrolling", "Payment failed during admission", "Contact admission counselor", "Talk to someone about joining"],
+        "responses": ["I'm sorry to hear that! You can reach our admission support team at support@simplilearn.com or click the 'Request a Callback' button for immediate help."],
+        "context": [""]
+        }
+    ]}
